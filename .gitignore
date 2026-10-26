@@ -1,0 +1,23 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+venv/
+.env
+env/
+ENV/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Sorties de tests et télémétrie locale
+.pytest_cache/
+*.png
+*.svg
+
+# Distribution / Build
+dist/
+build/
+*.egg-info/
