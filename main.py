@@ -32,7 +32,7 @@ def main():
 
     elif args.mode == "telemetry":
         print("📈 Génération des courbes de performance...")
-        generate_telemetry_dashboard("dashboard_metrics.png")
+        generate_telemetry_dashboard("assets/dashboard_metrics.png")
 
 if __name__ == "__main__":
     main()
